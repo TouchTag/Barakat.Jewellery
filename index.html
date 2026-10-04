@@ -121,22 +121,37 @@ h1{
 }
 
 .btn{
- position: relative;
-  display: block;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
   width:100%;
-  padding:14px;
+  height:80px;
+
   margin-bottom:12px;
   border-radius:16px;
-  text-decoration:none;
 
-  background: rgba(255,255,255,0.08);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.12);
-  color: #000 !important;
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(12px);
+
+  border:1px solid rgba(255,255,255,0.12);
+
+  text-decoration:none;
+  color:#bc8557 !important;
+
+  transition:0.2s ease;
 }
 
-.btn b{
-  color:#000 !important;
+.btn i{
+  font-size:38px;
+  color:#bc8557;
+
+
+  }
+
+.btn:hover{
+  transform:scale(1.02);
+  background:rgba(255,255,255,0.15);
 }
 .ic{
   position:absolute;
@@ -212,10 +227,7 @@ Jewellery | Diamonds | Precious Stones
 
 
 <a class="btn" href="https://www.google.com/search?sca_esv=7a80360a426ed37a&cs=1&output=search&kgmid=/g/12qgkdzys&q=Barakat+Jewellery&shem=dlvs1,epsd1,esd2e,ltae,rimspwouoe&shndl=30&source=sh/x/loc/uni/m1/1&kgs=626ccb0c564f4430&utm_source=dlvs1,epsd1,esd2e,ltae,rimspwouoe,sh/x/loc/uni/m1/1#lrd=0x151ca05365cafcd9:0x3b27cb0502044c26,3,,,," target="_blank">
-<div class="left">
-<div class="ic"><i class="fa-brands fa-google"></i></div>
-<div class="txt">
-<b>Google Reviews</b>
+<i class="fa-brands fa-google"></i>
 </div>
 </div>
 </a>  
@@ -224,27 +236,18 @@ Jewellery | Diamonds | Precious Stones
 </a>
   <div class="list">
   <a class="btn" href="https://wa.me/962798520300" target="_blank">
-    <div class="left">
-      <div class="ic"><i class="fa-brands fa-whatsapp"></i></div>
-      <div class="txt">
-        <b>Chat on WhatsApp</b>
+<i class="fa-brands fa-whatsapp"></i>
       </div>
     </div>  
   
 <a class="btn" href="https://www.instagram.com/barakat_jewellery" target="_blank">
-<div class="left">
-<div class="ic"><i class="fa-brands fa-instagram"></i></div>
-<div class="txt">
-<b>Instagram</b>
+<i class="fa-brands fa-instagram"></i>
 </div>
 </div>
 </a>  
 
   <a class="btn" href="https://www.facebook.com/Barakat.Jewellery" target="_blank">
-<div class="left">
-<div class="ic"><i class="fa-brands fa-facebook-f"></i></div>
-<div class="txt">
-<b>Facebook</b>
+  <i class="fa-brands fa-facebook-f"></i>
 </div>
 </div>
 </a>
